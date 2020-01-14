@@ -24,6 +24,6 @@ As with any set of rules, the officers will be **fully enforcing the code of con
 
 > After every project, create a **pull request** from your branch **to the master**. An officer will approve and merge your code so we can publish your amazing work :happy:!
 
-==Now, **please** make the officers life easier by **organizing** your work by each project that you do :smiley:!==
+> Now, **please** make the officers life easier by **organizing** your work by each project that you do :smiley:!
 
-==If you have any questions, feel free to ask the **officers** or refer to the **GitHub** documentation.==
+> If you have any questions, feel free to ask the **officers** or refer to the **GitHub** documentation.
