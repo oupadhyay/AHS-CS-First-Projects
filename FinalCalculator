@@ -1,0 +1,63 @@
+import math
+ 
+#by Aditya Kumar and Sravan Tallapaka
+ 
+def answer (operation, num1, num2):
+ if operation == "+":
+   return num1 + num2
+ elif operation == "-":
+   return num1 - num2
+ elif operation == "*":
+   return num1 * num2
+ elif operation == "/":
+   return num1 / num2
+ elif operation == "%":
+   return num1 % num2
+ elif operation == "^":
+   return num1 ** num2
+ elif operation == "root":
+   return num1 ** (1/num2)
+ elif operation == "log":
+   return math.log(num1, num2)
+ elif operation == "sin":
+   return math.sin(num1)
+ elif operation == "csc":
+   return (1/math.sin(num1))
+ elif operation == "cos":
+   return math.cos(num1)
+ elif operation == "sec":
+   return (1/math.cos(num1))
+ elif operation == "tan":
+   return math.tan(num1)
+ elif operation == "cot":
+   return (1/math.tan(num1))
+ else:
+   return "error"
+ 
+print("Welcome to Sravan and Aditya's calculator you have seen! \n")
+ 
+userExit = ""
+while userExit != "e":
+ op = input("Enter the operator you want to use \n(+, -, *, /, %, ^, root, log\nsin, cos, tan, csc, sec, cot): \n")
+ if op == "log":
+    y = float(input("\nEnter your base: \n"))
+    x = float(input("\nEnter your second number: \n"))
+ elif op == "root":
+    y = float(input("\nEnter your root: \n"))
+    x = float(input("\nEnter your radicand: \n"))
+ elif op == "^":
+    x = float(input("\nEnter your base: \n"))
+    y = float(input("\nEnter your exponent: \n"))
+ elif op == "sin" or op == "cos" or op == "tan" or op == "csc" or op == "sec" or op == "cot":
+    x = float(input("\nEnter your radian value: \n"))
+    y = 0
+ else:
+   x = float(input("\nEnter your first number: \n"))
+   y = float(input("\nEnter your second number: \n\n"))
+ 
+ print(answer(op, x, y))
+ 
+ userExit = input("Press 'e' to exit or anything else to continue.")
+ 
+print("\n\n Thank you, have a nice day!")
+
