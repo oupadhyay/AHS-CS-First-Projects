@@ -3,6 +3,9 @@
 # Score: 8/10
 # + 7 for completion of task
 # + 1 for extra functions including an interesting pop function :)
+# Potential Improvments:
+# Find a way to make parentheses work to force Order of Operations 
+# Make your code more concise... please
 # ~ Ojasw Upadhyay 
 
 def add(pos):
