@@ -1,4 +1,10 @@
 # Geoffrey Tang
+# Great work!
+# Score: 8/10
+# + 7 for completion of task
+# + 1 for extra functions including an interesting pop function :)
+# ~ Ojasw Upadhyay 
+
 def add(pos):
     temp = float(operation[pos - 1]) + float(operation[pos + 1])
     operation.pop(pos - 1)
