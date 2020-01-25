@@ -1,4 +1,13 @@
 # Woyu Wang and Iniyan Joseph
+# Great work!
+# Score: 9/10
+# + 7 for completion of task
+# + 2 for an extensive list of functions and the trig functions...
+# Potential Improvments:
+# Find a way to make parentheses work to force Order of Operations 
+# Make it easier to have multiple functions with the symbols (+) rather than "sum"
+# ~ Ojasw Upadhyay 
+
 import math
 
 # !IMPORTANT NOTICE!
