@@ -51,7 +51,7 @@ while True:
     operation = ['']
     pos = 0
     for i in n:
-        if str.isnumeric(i) or i == '.':
+        if str.isnumeric(i) or i == '.' or i == '!':
             operation[pos] += i
         elif i == 'P':
             operation[pos] = previous
@@ -112,4 +112,3 @@ while True:
     print(operation[0])
     previous = operation[0]
     print('-' * 10)
-
