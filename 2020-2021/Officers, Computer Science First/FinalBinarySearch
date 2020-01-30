@@ -1,0 +1,30 @@
+#Created by Aditya K. and Sravan T.
+ 
+print("Welcome to the High-Low Game!\n\nChoose a number in a range which you chose, and we will guess it from your high and low inputs!\n")
+ 
+print("Enter 'h' if the guess is too high, \n'l' if the guess is too low, and \n'y' if the guess is correct.")
+ 
+digits = int(input("\nEnter how many decimal places of precision you would like (do not exceed 15):  "))
+ 
+lowest = round(float(input("\nMake a custom range. \n\nEnter the lowest value: ")), digits)
+highest = round(float(input("\nEnter the highest value: ")), digits)
+ 
+print("\nThe range is from " + str(lowest) + " to " + str(highest) + ".")
+ 
+answer = ''
+guessCount = 0
+while (answer.lower() != "y"):
+ if (((highest-lowest) % 2) == 0):
+   guess = round(((highest-lowest)/2 + lowest), digits)
+ else:
+   guess = round(((highest-lowest)/2 + lowest), digits)
+ answer = input("\nIs your number " + str(guess) + "?  ")
+ if (answer.lower() == "l"):
+   lowest = guess
+ elif (answer.lower() == "h"):
+   highest = guess
+ else:
+   pass
+ guessCount += 1
+ 
+print("\n\nThanks for playing! It took " + str(guessCount) + " guesses.")
